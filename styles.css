@@ -1,22 +1,90 @@
 /* CSS RESET */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
 /* IMAGE USE
@@ -26,12 +94,11 @@ Photo by Alex Powell
 
 */
 
-
-
 /* GLOBAL */
 
-body,html {
-  font-family: 'Source Sans Pro', sans-serif;
+body,
+html {
+  font-family: "Source Sans Pro", sans-serif;
   background-color: black;
   font-size: 18px;
   color: white;
@@ -77,7 +144,7 @@ header li a:hover {
 }
 
 .current {
-  background-color: #73E2A7;
+  background-color: #73e2a7;
   color: black;
   padding: 5px;
 }
@@ -87,7 +154,7 @@ header li a:hover {
 .hero-banner {
   position: relative;
   overflow: hidden;
-  background-image: url('./images/hero-image.jpg');
+  background-image: url("./images/hero-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -103,7 +170,7 @@ header li a:hover {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 35px;
   font-weight: 700;
   text-transform: capitalize;
@@ -112,11 +179,11 @@ h1 {
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hero-button {
-  background-color: #73E2A7;
+  background-color: #73e2a7;
   color: black;
   font-size: 25px;
   border: none;
@@ -164,9 +231,9 @@ h2 {
 iframe {
   display: block;
   margin-top: 20px;
-  height: 450px; 
+  height: 450px;
   border: none;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -186,7 +253,7 @@ iframe {
 
 hr {
   width: 125px;
-  border-color: #73E2A7;
+  border-color: #73e2a7;
 }
 
 /* MISC */
@@ -232,7 +299,7 @@ footer {
 }
 
 .footer-menu a:hover {
-  color: #73E2A7;
+  color: #73e2a7;
 }
 
 .footer-menu img {
@@ -248,40 +315,49 @@ footer {
   margin-bottom: 10px;
 }
 
+.social-icons {
+  margin-top: 16px;
+}
+
 fieldset {
-  border: 1px dashed #73E2A7;
-  padding: 20px;
+  border: 1px dashed #73e2a7;
+  padding: 16px;
 }
 
 legend {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
 
-input[type=text] {
-  font-family: 'Source Sans Pro', sans-serif;
+input[type="text"] {
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
-  width: 80%;
+  width: 95%;
+  height: 32px;
+  padding: 0 0 0 8px;
 }
 
 textarea {
   display: block;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
-  margin-bottom: 20px;
-  width: 80%;
+  margin-bottom: 8px;
+  width: 95%;
+  padding: 8px 0 0 8px;
 }
 
-input[type=submit] {
-  background-color: #73E2A7;
+input[type="submit"] {
+  background-color: #73e2a7;
   padding: 15px 30px;
   border-radius: 10px;
   text-decoration: none;
   font-size: 15px;
+  border: none;
+  margin-top: 16px;
 }
 
 input {
-  margin: 0 0 10px 0;
+  margin: 0 0 12px 0;
 }
 
 .copyright {
@@ -300,7 +376,6 @@ input {
   .main-content {
     height: 720px;
   }
-
 }
 
 /* TABLET */
@@ -330,7 +405,7 @@ input {
   h1 {
     font-size: 45px;
     margin-top: 150px;
-  } 
+  }
 
   .main-content {
     width: 700px;
@@ -340,7 +415,10 @@ input {
   .tours-content {
     width: 700px;
     margin: 0 auto;
-    height: 2300px;
+  }
+
+  iframe {
+    flex: 1;
   }
 
   .about-img {
@@ -364,6 +442,39 @@ input {
   .tours-content {
     width: 950px;
     margin: 0 auto;
+    display: flex;
+    height: 100vh;
+  }
+
+  .tour-option-one {
+    flex: 1;
+    margin-right: 16px;
+  }
+
+  .tour-option-two {
+    flex: 1;
+    margin: 48px 16px 0 0;
+  }
+
+  .tour-option-three {
+    flex: 1;
+    margin: 48px 16px 0 0;
+  }
+
+  .tour-option-one input {
+    margin-top: 56px;
+  }
+
+  .tour-option-two input {
+    margin-top: 16px;
+  }
+
+  .tour-option-three input {
+    margin-top: 40px;
+  }
+
+  iframe {
+    height: 250px;
   }
 
   footer {
